@@ -1,0 +1,12 @@
+
+On MacOs Catalina, open a terminal and run:
+
+ sudo nano /etc/paths
+And add to end of file:
+
+/usr/local/mysql/bin
+Save the changes and quit, then reload the terminal.
+
+Open a new terminal and run:
+
+ mysql -u root -p
