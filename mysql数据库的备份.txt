@@ -1,0 +1,9 @@
+使用 mysqldump 命令来备份数据库
+
+pengchaoma@Pengchaos-MacBook-Pro mysql_2025 % mysqldump -uroot -pAllen007007 allen_25 > backup.sql
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+
+pengchaoma@Pengchaos-MacBook-Pro mysql_2025 % ls | grep backup
+backup.sql
+
+
