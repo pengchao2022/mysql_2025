@@ -55,3 +55,4 @@ mysql> select * from customer;
 注意：
 一张表 ，最多只有一个主键
 非空，且唯一 的主键
+主键类型 不一定为整形
